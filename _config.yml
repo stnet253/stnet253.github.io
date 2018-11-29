@@ -25,3 +25,5 @@ remote_theme: llorephie/jekyll-bootstrap
 exclude:
   - Gemfile
   - Gemfile.lock
+
+theme: jekyll-theme-hacker
