@@ -49,21 +49,49 @@
 
     <article class="container pt-5" itemscope itemtype="http://schema.org/BlogPosting">
   <header>
-    <h1 itemprop="name headline">Some articles are just so long they deserve a really long title to see if things will break well</h1>
+    <h1 itemprop="name headline">使用 Virt What 判斷商家虛擬架構</h1>
     <p>
-      <time datetime="2017-12-01T00:00:00+08:00" itemprop="datePublished">
+      <time datetime="2018-11-29T00:00:00+08:00" itemprop="datePublished">
         
-        Dec 1, 2017
+        Nov 29, 2018
       </time>
+      
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Tony</span></span>
       </p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
+    <p>使用 Virt What 判斷商家虛擬架構</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
+<p>可以判斷以下大多數虛擬架構，包括：VMware、Hyper-V、VirtualPC、VirtualBox、OpenVZ / Virtuozzo、Linux-VServer、UML、IBM PowerVM Lx86 Linux/x86 emulator、Hitachi Virtualization Manager (HVM) Virtage logical 、partitioning、IBM SystemZ、Parallels、Xen、QEMU/KVM</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
+<p>一、下載</p>
+
+<p>wget http://soft.vpsmm.com/virt-what-1.11.tar.gz</p>
+
+<p>二、安裝</p>
+
+<p>tar zxf virt-what-1.11.tar.gz               #解壓縮包<br />
+cd virt-what-1.11                           #進入目錄<br />
+./configure                                 #按默認設置<br />
+make &amp;&amp; make install                        #編譯並安裝<br /></p>
+
+<p>三、使用</p>
+
+<p>virt-what</p>
+
+<p>懶人方法</p>
+
+<p>apt-get install virt-what #debian/ubuntu安裝<br />
+yum install virt-what  #centos安裝<br />
+virt-what  #運行<br /></p>
+
+<p>#在阿裡雲執行後，得出結果：<br />
+Last login: Mon Jul 13 14:13:11 2015 from 125.39.87.63<br />
+root@bj:~# virt-what<br />
+xen<br />
+xen-hvm<br /></p>
+
 
   </div>
 
