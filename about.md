@@ -1,11 +1,21 @@
 ---
 layout: page
-title: About
+title: 關於我
 permalink: /about/
 ---
 
-This is the Bootstrap Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+您可自由
 
-You can find the source code for the Jekyll theme at [github.com/llorephie/jekyll-bootstrap](https://github.com/llorephie/jekyll-bootstrap)
+分享 — 重製、散佈、展示及演出本著作
+重混 — 創作衍生著作
+惟需遵照下列條件：
+姓名標示. 您必須按照作者或授權人所指定的方式，表彰其姓名；但不得以任何方式暗示其為您（或您使用該著作的方式）背書。
+非商業性. 您不得為商業目的而使用本著作。
+相同方式分享. 若您改變、轉變或改作本著作，當散佈該衍生著作時，您需採用與本著作相同或類似的授權條款。
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+免責聲明
+本網站對於任何使用或引用本網站網頁資料引致之損失或損害，概不負責。 本網站亦有權隨時刪除、暫停或編輯本網站所登載之各項資料，以維護本網站之權益。 除法律有強制規定外，在任何情況下，本網站對於下列情形所致生之任何直接、間接、附帶、特別、懲罰性或衍生性損害，一概不負賠償責任。
+(1)使用或無法使用本網站之各項服務。
+(2)經由本網站取得訊息或進行交易。
+(3)第三人在本網站上之陳述或作為。
+(4)其他與本網站服務有關之事項。
